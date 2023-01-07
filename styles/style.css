@@ -9,7 +9,7 @@
     background: #cb3c3c;
     color: #FFFFFF;
     border: none;
-    padding: 20px 25px;
+    padding: 15px 30px;
     font-weight: 600;
     font-size: 20px;
     border-radius: 5px;
@@ -136,6 +136,60 @@ header .heading-title{
     font-weight: 600;
     font-size: 20px;
 }
+
+/* Contact section styles */
+
+.contact{
+    background: #151414;
+    color: #ffffff;
+}
+
+.contact .contact-info-container{
+    display: flex;
+    padding: 120px;
+}
+
+.contact-info{
+    margin-right: 320px;
+}
+
+.contact-info .contact-info-title{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.contact-info .contact-info-details{
+    margin-bottom: 20px;
+}
+
+.contact-info .contact-address{
+    margin-bottom:10px;
+}
+
+.contact-info .social-btn img{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.subscribe-form .subscribe-form-title{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.subscribe-form input{
+    font-size: 18px;
+    width: 200px;
+    outline: none;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background: transparent;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
 
 
 
