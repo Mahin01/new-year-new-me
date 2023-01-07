@@ -95,9 +95,10 @@ header .heading-title{
 
 .my-plan .plans-container{
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: space-around; 
+    gap: 5px;
 }
+
 
 .plans-lists img{
     width: 50px;
