@@ -1,18 +1,29 @@
-/* Universal Styles */
+    /* Universal Styles */
 *{
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
+.primary-heading{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
 .btn-primary{
     background: #cb3c3c;
-    color: #FFFFFF;
-    border: none;
-    padding: 15px 30px;
     font-weight: 600;
     font-size: 20px;
+    color: #FFFFFF;
+    border: none;
     border-radius: 5px;
+    padding: 15px 30px;
 }
 
 .text-primary{
@@ -20,26 +31,31 @@
     margin-bottom: 20px;
 }
 
-/* Header Styles */
+.my-plan, .timeline{
+    margin-bottom: 120px;
+}
+
+    /* Header Styles */
 header{
     background: url(../images/banner/banner2.png);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header .header-content{
-    padding: 200px 80px;
-    margin-left: 450px;
+    padding: 200px 0px;
+    margin-left:40%;
     text-align: right;
     width: 600px;
 }
 
 header .heading-title{
     font-weight: 700;
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 20px;
 }
 
-/* Failure section styles */
+    /* Failure section styles */
 
 .failure-container{
     display: flex;
@@ -47,15 +63,18 @@ header .heading-title{
     margin: 130px 100px;
 }
 
-.icon{
+.failure-container .icon{
     margin-right: 70px;
+}
+
+.failures-content{
+    margin-top: 250px;
 }
 
 .failures-content .failure-heading{
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 20px;
-    margin-top: 250px;
 }
 
 .failures-content .failure-list{
@@ -68,26 +87,16 @@ header .heading-title{
     margin-right: 10px;
 }
 
-/* My plan styles */
-
+    /* My plan styles */
 .my-plan{
     text-align: center;
-    margin-bottom: 120px;
-}
-
-.my-plan .my-plan-heading{
-    font-weight: 700;
-    font-size: 40px;
-    margin-bottom: 50px;
+    margin: 100px;
 }
 
 .my-plan .plans-container{
     display: flex;
-    margin: 0px 100px;
-}
-
-.my-plan .plans-lists{
-    width: 300px;
+    justify-content: space-around;
+    
 }
 
 .plans-lists img{
@@ -102,10 +111,26 @@ header .heading-title{
     margin-bottom: 10px;
 }
 
+/* Plan Timeline Styles */
+.timeline-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 120px 0px 100px;
+}
+
+.target-details .target-title{
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.target-details .target-subtitle{
+    font-size: 20px;
+}
 /* Banner Section styles */
 
 .banner{
-    margin: 0px 0px 0px 120px;
+    margin-left: 100px;
 }
 
 .banner-content{
@@ -153,13 +178,13 @@ header .heading-title{
     margin-right: 320px;
 }
 
-.contact-info .contact-info-title{
+.contact-info .contact-title{
     font-weight: 700;
     font-size: 30px;
     margin-bottom: 15px;
 }
 
-.contact-info .contact-info-details{
+.contact-info .contact-details{
     margin-bottom: 20px;
 }
 
