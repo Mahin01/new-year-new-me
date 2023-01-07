@@ -1,0 +1,148 @@
+/* Universal Styles */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary{
+    background: #cb3c3c;
+    color: #FFFFFF;
+    border: none;
+    padding: 20px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.text-primary{
+    color: #444343;
+    margin-bottom: 20px;
+}
+
+/* Header Styles */
+header{
+    background: url(../images/banner/banner2.png);
+    background-repeat: no-repeat;
+}
+
+header .header-content{
+    padding: 200px 80px;
+    margin-left: 450px;
+    text-align: right;
+    width: 600px;
+}
+
+header .heading-title{
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+/* Failure section styles */
+
+.failure-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 130px 100px;
+}
+
+.icon{
+    margin-right: 70px;
+}
+
+.failures-content .failure-heading{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 250px;
+}
+
+.failures-content .failure-list{
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+.failures-content .failure-list i{
+    color: #16D887;
+    margin-right: 10px;
+}
+
+/* My plan styles */
+
+.my-plan{
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.my-plan .my-plan-heading{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.my-plan .plans-container{
+    display: flex;
+    margin: 0px 100px;
+}
+
+.my-plan .plans-lists{
+    width: 300px;
+}
+
+.plans-lists img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.plans-lists .plan-title{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+/* Banner Section styles */
+
+.banner{
+    margin: 0px 0px 0px 120px;
+}
+
+.banner-content{
+    background-image: linear-gradient(to right, rgba(219, 13, 13, 0.75), rgba(255, 234, 1, 0.5)),
+    url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    width: 80%;
+    margin-bottom: 120px;
+    border-radius: 5px; 
+}
+
+.banner-content .banner-title{
+    width: 50%;
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.banner-content .banner-btn{
+    background: #ffffff;
+    color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 5px;
+    padding: 15px 35px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
